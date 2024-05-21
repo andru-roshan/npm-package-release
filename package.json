@@ -1,0 +1,27 @@
+{
+  "name": "arjs-button",
+  "version": "1.0.0",
+  "description": "button component ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andru-roshan/npm-package-release.git"
+  },
+  "keywords": [
+    "button",
+    "component"
+  ],
+  "author": "andruroshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andru-roshan/npm-package-release/issues"
+  },
+  "homepage": "https://github.com/andru-roshan/npm-package-release#readme",
+  "dependencies": {
+    "classnames": "^2.5.1",
+    "tailwindcss": "^3.4.3"
+  }
+}
