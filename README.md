@@ -12,6 +12,4 @@ import {Button} from 'arjs-component'
 variant="primary"
 className="classname"
 label="save"
-type="button"
-
-> </Button>
+type="button"> </Button>
