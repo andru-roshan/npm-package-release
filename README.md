@@ -4,12 +4,14 @@
 
 ### Imports
 
-import {Button} from 'arjs-component'
+```
+import Button from 'arjs-component'
+
+```
 
 ### Usage
 
-<Button
-variant="primary"
-className="classname"
-label="save"
-type="button"> </Button>
+```
+<Button variant="primary" className="classname" label="save" type="button"> </Button>
+
+```
