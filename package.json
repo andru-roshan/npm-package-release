@@ -1,10 +1,12 @@
 {
-  "name": "arjs-button",
-  "version": "1.0.0",
-  "description": "button component ",
-  "main": "index.js",
+  "name": "arjs-components",
+  "version": "0.0.3",
+  "description": "arjs components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "npm run test"
+    "test": "npm run test",
+    "build": "tsup"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,13 @@
   "homepage": "https://github.com/andru-roshan/npm-package-release#readme",
   "dependencies": {
     "classnames": "^2.5.1",
-    "tailwindcss": "^3.4.3"
+    "react": "^18.3.1",
+    "tailwindcss": "^3.4.3",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2"
   }
 }
