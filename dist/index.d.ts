@@ -18,4 +18,10 @@ type ButtonPropType = {
 };
 declare const Button: ({ leftIcon, rightIcon, className, label, disabled, variant, onClick, type, onFocus, onBlur, onkeyup, onKeyDown, onMouseEnter, onMouseLeave, }: ButtonPropType) => React.JSX.Element;
 
-export { Button, type ButtonPropType };
+type chipTypes = {
+    children?: string;
+    className?: string;
+};
+declare const Chip: ({ children, className }: chipTypes) => React.JSX.Element;
+
+export { Button, type ButtonPropType, Chip, type chipTypes };
